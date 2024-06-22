@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title>Inscripción a Exámenes</title>
+</head>
+<body>
+  <form action="procesar_inscripcion.php" method="post">
+    Apellidos y Nombres: <input type="text" name="nombre"><br>
+    DNI: <input type="text" name="dni"><br>
+    Materia: <input type="text" name="materia"><br>
+    Fecha de examen: <input type="date" name="fecha"><br>
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
