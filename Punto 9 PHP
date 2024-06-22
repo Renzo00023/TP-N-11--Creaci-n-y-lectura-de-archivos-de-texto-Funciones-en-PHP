@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title>Procesar Inscripción</title>
+</head>
+<body>
+  <?php
+  $ar = fopen("inscripciones.txt", "a") or die("Problemas en la creación");
+  fputs($ar, "Nombre: " . $_REQUEST['nombre'] . "\n");
+  fputs($ar, "DNI: " . $_REQUEST['dni'] . "\n");
+  fputs($ar, "Materia: " . $_REQUEST['materia'] . "\n");
+  fputs($ar, "Fecha: " . $_REQUEST['fecha'] . "\n");
+  fputs($ar, "--------------------------------------------------------\n");
+  fclose($ar);
+  echo "Inscripción registrada correctamente.";
+  ?>
+</body>
+</html>
