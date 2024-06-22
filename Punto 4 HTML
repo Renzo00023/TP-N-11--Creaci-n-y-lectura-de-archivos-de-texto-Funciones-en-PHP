@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title>Pedido de Pizzas</title>
+</head>
+<body>
+  <form action="procesar_pedido.php" method="post">
+    Nombre: <input type="text" name="nombre"><br>
+    Dirección: <input type="text" name="direccion"><br>
+    Tipo de Pizza: <input type="text" name="tipo_pizza"><br>
+    Cantidad: <input type="number" name="cantidad"><br>
+    <input type="submit" value="Enviar Pedido">
+  </form>
+</body>
+</html>
