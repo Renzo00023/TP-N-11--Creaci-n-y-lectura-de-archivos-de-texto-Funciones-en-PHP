@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title>Procesar Paridad</title>
+</head>
+<body>
+  <?php
+  function es_par($numero) {
+    return $numero % 2 == 0;
+  }
+  if (es_par($_POST['numero'])) {
+    echo "El número es par.";
+  } else {
+    echo "El número es impar.";
+  }
+  ?>
+</body>
+</html>
