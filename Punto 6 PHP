@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title>Procesar Usuario</title>
+</head>
+<body>
+  <?php
+  function verificar_claves($clave1, $clave2) {
+    if ($clave1 != $clave2) {
+      echo "Las claves ingresadas son distintas.";
+    } else {
+      echo "Registro exitoso.";
+    }
+  }
+  verificar_claves($_POST['clave1'], $_POST['clave2']);
+  ?>
+</body>
+</html>
