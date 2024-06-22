@@ -1,0 +1,11 @@
+<html>
+<head>
+  <title>Verificar Paridad</title>
+</head>
+<body>
+  <form action="procesar_par.php" method="post">
+    Número: <input type="number" name="numero"><br>
+    <input type="submit" value="Verificar">
+  </form>
+</body>
+</html>
