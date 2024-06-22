@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title>Procesar Suma</title>
+</head>
+<body>
+  <?php
+  function sumar($num1, $num2) {
+    return $num1 + $num2;
+  }
+  $suma = sumar($_POST['num1'], $_POST['num2']);
+  echo "La suma es: " . $suma;
+  ?>
+</body>
+</html>
